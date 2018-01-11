@@ -14,3 +14,19 @@
     - Set the margin-top to 45% of the vertical height
 */
 
+body {
+    background-color: antiquewhite;
+    margin: 0px;
+    box-sizing: border-box; 
+    /* this means that when you are making measurements it will include the size of the boarder */
+    text-align: center;
+}
+
+div{
+    border: 1px solid blue;
+    display: inline-block; /* this allows you to be in line and change the width*/
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 45vh;
+}
