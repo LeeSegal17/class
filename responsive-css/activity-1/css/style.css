@@ -6,16 +6,30 @@
 
 
 /* Flexbox container */
+<<<<<<< HEAD
 .flexbox-container {
     min-height: 200px;
     border: solid black;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+=======
+
+.flexbox-container {
+    display: flex;
+    border: 1px solid black;
+    min-height: 200px;
+    flex-wrap: wrap;
+    align-items: center;
+>>>>>>> f7239fe1ab3684b974562494a374e7069d61a61c
 }
 
 
 /* Each column in the flexbox */
+<<<<<<< HEAD
+=======
+
+>>>>>>> f7239fe1ab3684b974562494a374e7069d61a61c
 .flex-column {
     padding: 20px;
     flex-basis: 100%;
@@ -23,6 +37,10 @@
 
 
 /* Content within each flexbox item */
+<<<<<<< HEAD
+=======
+
+>>>>>>> f7239fe1ab3684b974562494a374e7069d61a61c
 .content {
     background-color: tomato;
     text-align: center;
@@ -32,6 +50,7 @@
 
 
 /* On medium screens, have each item take up 50% */
+<<<<<<< HEAD
 @media screen and (min-width: 768px) {
     .flex-column {
         flex-basis: 50%;
@@ -39,11 +58,23 @@
     .content {
         background-color: green;
     }
+=======
+
+@media screen and (min-width:768px) {
+    .flex-column {
+        flex-basis: 50%;
+    }
+>>>>>>> f7239fe1ab3684b974562494a374e7069d61a61c
 }
 
 
 /* On larger screens, have each item take up 25% */
+<<<<<<< HEAD
 @media screen and (min-width: 992px) {
+=======
+
+@media screen and (min-width:992px) {
+>>>>>>> f7239fe1ab3684b974562494a374e7069d61a61c
     .flex-column {
         flex-basis: 25%;
     }
